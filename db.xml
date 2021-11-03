@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <table>
+        <name>keyvalue_config</name>
+        <column>
+            <name>key</name>
+            <type>varchar(255)</type>
+            <null>NO</null>
+        </column>
+        <column>
+            <name>value</name>
+            <type>json</type>
+            <null>NO</null>
+        </column>
+        <column>
+            <name>stamp</name>
+            <type>datetime</type>
+            <null>NO</null>
+        </column>
+        <index>
+            <type>PRIMARY</type>
+            <element>key</element>
+        </index>
+    </table>
+</root>
